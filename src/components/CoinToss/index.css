@@ -22,18 +22,19 @@
 .coin-toss-header {
   color: #a35200;
   font-size: 3.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .coin-toss-description {
   color: #334155;
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .coin-toss-outcome-img {
   height: 16rem;
   width: 16rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .coin-toss-button {
@@ -43,7 +44,7 @@
   color: #a35200;
   padding: 0.5rem 1rem;
   border-radius: 0.6rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.75rem;
   font-size: 0.8rem;
   border: none;
 }
