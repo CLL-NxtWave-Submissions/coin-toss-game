@@ -54,6 +54,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  width: 80%;
 }
 
 .coin-toss-stat {
