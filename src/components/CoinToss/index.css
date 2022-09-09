@@ -1,1 +1,68 @@
-/* Write your CSS here */
+.coin-toss-bg-container {
+  height: 100vh;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+}
+
+.coin-toss-content-container {
+  background-color: #ffffff;
+  border-radius: 0.6rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.coin-toss-header {
+  color: #a35200;
+  font-size: 2rem;
+}
+
+.coin-toss-description {
+  color: #334155;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.coin-toss-outcome-img {
+  height: 5rem;
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.coin-toss-button {
+  cursor: pointer;
+  outline: none;
+  background-color: #f9d423;
+  color: #a35200;
+  padding: 0.5rem 1rem;
+  border-radius: 0.6rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.coin-toss-stats-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.coin-toss-stat {
+  font-size: 1.2rem;
+  color: #475569;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .coin-toss-stats-container {
+    flex-direction: row;
+  }
+}
