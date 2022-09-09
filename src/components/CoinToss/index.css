@@ -62,6 +62,12 @@
   margin-right: 0.5rem;
 }
 
+.coin-toss-description,
+.coin-toss-button,
+.coin-toss-stat {
+  font-weight: 600;
+}
+
 @media (min-width: 768px) {
   .coin-toss-stats-container {
     flex-direction: row;
