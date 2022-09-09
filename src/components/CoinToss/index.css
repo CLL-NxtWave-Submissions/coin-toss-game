@@ -45,6 +45,7 @@
   border-radius: 0.6rem;
   margin-bottom: 1.5rem;
   font-size: 1rem;
+  border: none;
 }
 
 .coin-toss-stats-container {
